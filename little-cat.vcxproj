@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
