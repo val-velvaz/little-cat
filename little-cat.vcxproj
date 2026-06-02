@@ -131,8 +131,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\Cat Sprite Sheet.png" />
-    <Image Include="..\..\..\..\Downloads\Free-Castle-Interior-Pixel-Game-Backgrounds\PNG\background 3\background 3.png" />
+    <Image Include="..\..\..\..\Downloads\cat.png" />
+    <Image Include="..\..\..\..\Downloads\Free-Castle-Interior-Pixel-Game-Backgrounds\PNG\background 3\background.png" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cat.hpp" />

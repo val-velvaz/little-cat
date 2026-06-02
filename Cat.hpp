@@ -6,8 +6,8 @@ using namespace sf;
 class Cat {
 private:
 	Vector2f m_Position;
-	Sprite m_Sprite;
 	Texture m_Texture;
+	Sprite m_Sprite;
 
 	bool m_LeftPressed = false;
 	bool m_RightPressed = false;

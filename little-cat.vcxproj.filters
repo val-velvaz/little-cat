@@ -23,10 +23,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\Cat Sprite Sheet.png">
+    <Image Include="..\..\..\..\Downloads\cat.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Downloads\Free-Castle-Interior-Pixel-Game-Backgrounds\PNG\background 3\background 3.png">
+    <Image Include="..\..\..\..\Downloads\Free-Castle-Interior-Pixel-Game-Backgrounds\PNG\background 3\background.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
