@@ -30,7 +30,10 @@
     <ClCompile Include="Update.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Draw..cpp">
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

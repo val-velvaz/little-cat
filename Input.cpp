@@ -11,12 +11,14 @@ void Engine::input() {
 		m_Window.close();
 
 	// movement
-	if (Keyboard::isKeyPressed(Keyboard::Key::A))
+	if (Keyboard::isKeyPressed(Keyboard::Key::A) || Keyboard::isKeyPressed(Keyboard::Key::Left))
 		m_Cat.moveLeft();
-
 	else m_Cat.stopLeft();
 
-	if (Keyboard::isKeyPressed(Keyboard::Key::D))
+	if (Keyboard::isKeyPressed(Keyboard::Key::D) || Keyboard::isKeyPressed(Keyboard::Key::Right))
 		m_Cat.moveRight();
 	else m_Cat.stopRight();
+
+	if (Keyboard::isKeyPressed(Keyboard::Key::W) || Keyboard::isKeyPressed(Keyboard::Key::Up))
+		m_Cat.jump();
 }

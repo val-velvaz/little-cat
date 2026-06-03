@@ -9,6 +9,15 @@ Engine::Engine()
 		"Simple Game Engine",
 		State::Fullscreen);
 
+	sf::Vector2u windowSize = m_Window.getSize();
+	sf::Vector2u textureSize = m_BackgroundTexture.getSize();
+
+	m_BackgroundTexture.setSmooth(false);
+
+	float scaleX = (float)windowSize.x / textureSize.x;
+	float scaleY = (float)windowSize.y / textureSize.y;
+
+	m_BackgroundSprite.setScale({ scaleX, scaleY });
 }
 
 void Engine::start() {

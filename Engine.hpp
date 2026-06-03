@@ -16,6 +16,9 @@ private:
 	void update(float dtAsSeconds);
 	void draw();
 
+	void colitionFloor();
+	void colitionScreen();
+
 public:
 	Engine();
 	void start();
